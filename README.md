@@ -15,3 +15,11 @@ The following commands must be executed on Administrator PowerShell.
 ## Remove gallery
     Remove-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Virtualization\" -Name "GalleryLocations"
 
+# Create a Azure Storage Mover Agent VM
+1. Open Hyper-V Manager
+2. Click on `Quick Create...`
+3. Select `Azure Storage Mover Agent VM` and click on `Create Virtual Machine`
+4. Click on `Connect` to connect to the VM
+5. Login with `admin` and password `admin`
+
+![Hyper-V-Quick-Create-Gallery](Hyper-V-Quick-Create-Gallery.png)
